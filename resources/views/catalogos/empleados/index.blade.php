@@ -15,9 +15,9 @@
             <thead>
               <tr>
                 <th scope="col">Nombre</th>
-                <th scope="col">Direccion</th>
-                <th scope="col">Edad</th>
                 <th scope="col">Apellido</th>
+                <th scope="col">Edad</th>
+                <th scope="col">Direccion</th>
                 <th scope="col">Sexo</th>
                 <th scope="col">Editar</th>
                 <th scope="col">Eliminar</th>
@@ -27,9 +27,9 @@
             @foreach ($empleados as $empleado)
               <tr>
                 <td>{{$empleado->nombre}}</td>
-                <td>{{$empleado->direccion}}</td>
-                <td>{{$empleado->edad}}</td>
                 <td>{{$empleado->apellido}}</td>
+                <td>{{$empleado->edad}}</td>
+                <td>{{$empleado->direccion}}</td>
                 <td>{{$empleado->sexo}}</td>
                 <td><a href="{{route('empleados.edit', $empleado)}}" class="btn btn-warning">Editar</a></td>
                 <td>

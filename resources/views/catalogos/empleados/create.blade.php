@@ -15,16 +15,16 @@
             <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" value="{{old('nombre')}}">
         </div>
         <div class="form-group">
-            <label for="especie">Direccion</label>
-            <input type="text" class="form-control" id="direccion" name="direccion" placeholder="Direccion" value="{{old('direccion')}}">
+            <label for="especie">Apellido</label>
+            <input type="text" class="form-control" id="apellido" name="apellido" placeholder="Apellido" value="{{old('apellido')}}">
         </div>
         <div class="form-group">
             <label for="edad">Edad</label>
             <input type="text" class="form-control" id="edad" name="edad" placeholder="Edad" value="{{old('edad')}}">
         </div>
         <div class="form-group ">
-            <label for="apellido">Apellido</label>
-            <input type="text" class="form-control" id="apellido" name="apellido" placeholder="Apellido" value="{{old('apellido')}}">
+            <label for="apellido">Direccion</label>
+            <input type="text" class="form-control" id="direccion" name="direccion" placeholder="Direccion" value="{{old('direccion')}}">
         </div>
         <div class="form-group">
             <label for="sexo">Sexo</label><br>
@@ -33,7 +33,7 @@
                 <label class="form-check-label" for="sexo">Masculino</label>
             </div>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="sexo" id="sexo" value="H">
+                <input class="form-check-input" type="radio" name="sexo" id="sexo" value="F">
                 <label class="form-check-label" for="sexo">Femenino</label>
         </div>
         <br><br>

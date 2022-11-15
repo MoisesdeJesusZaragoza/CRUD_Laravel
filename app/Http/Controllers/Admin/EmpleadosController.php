@@ -66,9 +66,9 @@ class EmpleadosController extends Controller
 
         $empleado = new Empleado();
         $empleado->nombre = $request->nombre;
-        $empleado->direccion = $request->direccion;
-        $empleado->edad = $request->edad;
         $empleado->apellido = $request->apellido;
+        $empleado->edad = $request->edad;
+        $empleado->direccion = $request->direccion;
         $empleado->sexo = $request->sexo;
         try{
             $empleado->save();
@@ -137,9 +137,9 @@ class EmpleadosController extends Controller
         }
 
         $empleado->nombre = $request->nombre;
-        $empleado->direccion = $request->direccion;
-        $empleado->edad = $request->edad;
         $empleado->apellido = $request->apellido;
+        $empleado->edad = $request->edad;
+        $empleado->direccion = $request->direccion;
         $empleado->sexo = $request->sexo;
         try{
             $empleado->save();

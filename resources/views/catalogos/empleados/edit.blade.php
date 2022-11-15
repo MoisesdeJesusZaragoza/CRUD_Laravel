@@ -16,16 +16,16 @@
             <input type="text" class="form-control" id="nombre" name="nombre" value="{{$empleado->nombre}}">
         </div>
         <div class="form-group">
-            <label for="especie">Direccion</label>
-            <input type="text" class="form-control" id="direccion" name="direccion" value="{{$empleado->especie}}">
+            <label for="especie">Apellido</label>
+            <input type="text" class="form-control" id="apellido" name="apellido" value="{{$empleado->apellido}}">
         </div>
         <div class="form-group">
             <label for="edad">Edad</label>
             <input type="text" class="form-control" id="edad" name="edad" value="{{$empleado->edad}}">
         </div>
         <div class="form-group ">
-            <label for="apellido">Apellido</label>
-            <input type="text" class="form-control" id="apellido" name="apellido" value="{{$empleado->apellido}}">
+            <label for="apellido">Direccion</label>
+            <input type="text" class="form-control" id="direccion" name="direccion" value="{{$empleado->direccion}}">
         </div>
         <div class="form-group">
             <label for="sexo">Sexo</label><br>
