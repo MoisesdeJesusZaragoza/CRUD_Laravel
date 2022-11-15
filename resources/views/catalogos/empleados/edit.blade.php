@@ -34,7 +34,7 @@
                 <label class="form-check-label" for="sexo">Masculino</label>
             </div>
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="sexo" id="sexo" value="H" @if($empleado->sexo=='F') checked @endif>
+                <input class="form-check-input" type="radio" name="sexo" id="sexo" value="F" @if($empleado->sexo=='F') checked @endif>
                 <label class="form-check-label" for="sexo">Femenino</label>
         </div>
         <br><br>
